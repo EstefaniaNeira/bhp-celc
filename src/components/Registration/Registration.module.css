@@ -1,0 +1,26 @@
+@media (min-device-width: 360px) and (max-device-width: 640px){
+
+
+.buttonRegistration {
+    position: absolute;
+    justify-content: center;
+    background: #ffffff;
+    border: 3px solid #ef6e23;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 5vh;
+    margin-top: -1vh;
+    text-decoration: none;
+    color: black;
+    width: 28vh;
+    height: 10vh;
+  }
+
+ }
