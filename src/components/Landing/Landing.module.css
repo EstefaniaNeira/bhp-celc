@@ -2,7 +2,7 @@
   .buttonLanding {
     position: absolute;
     justify-content: center;
-    background: #ffffff;
+    background: #ef6e23;
     border: 3px solid #ef6e23;
     box-sizing: border-box;
     border-radius: 4px;
@@ -16,7 +16,7 @@
     margin-left: 11vh;
     margin-top: 4vh;
     text-decoration: none;
-    color: #ef6e23;
+    color: #ffffff;
     width: 35vh;
     height: 10vh;
   }
