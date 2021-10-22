@@ -1,0 +1,108 @@
+@media (min-device-width: 360px) and (max-device-width: 640px) {
+  .buttonRegistration {
+    position: absolute;
+    justify-content: center;
+    background: #ef6e23;
+    border: 3px solid #ef6e23;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 11vh;
+    margin-top: 11vh;
+    text-decoration: none;
+    color: #ffffff;
+    width: 35vh;
+    height: 10vh;
+  }
+
+  .buttonCalculation {
+    position: absolute;
+    justify-content: center;
+    background: #ef6e23;
+    border: 3px solid #ef6e23;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 11vh;
+    margin-top: 23vh;
+    text-decoration: none;
+    color: #ffffff;
+    width: 35vh;
+    height: 10vh;
+  }
+  .BHPlogo {
+    position: absolute;
+    height: 32px;
+    width: 84px;
+    left: 32px;
+    top: 23px;
+    border-radius: 0px;
+  }
+  .titleRegistration {
+    height: 31px;
+    width: 213px;
+    left: 42px;
+    top: 395px;
+    border-radius: nullpx;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-style: unset;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: revert;
+    color: #000000a3;
+    opacity: 95%;
+    margin-left: 5vh;
+    margin-top: 15vh;
+  }
+
+  .lineRegistration {
+    background-color: #ef6e23;
+    width: 283px;
+    height: 3px;
+    position: absolute;
+    margin-left: 5vh;
+    margin-top: 1vh;
+  }
+  .SOSIcon {
+    width: 10vh;
+    height: 11vh;
+    margin-top: 2vh;
+    margin-left: 40vh;
+  }
+  .formcontrol {
+    height: 6vh;
+    width: 43vh;
+    border-color: #ef6e23;
+    margin-top: 3vh;
+    margin-left: 5vh;
+    border-radius: 7px;
+  }
+
+  .AceptoTerminosyCondiciones {
+    font-family: Arial;
+    color: #ef6e23;
+    font-size: 12px;
+    margin-top: -15vh;
+    margin-left: 1vh;
+  }
+  .Circle {
+    margin-top: 4vh;
+    margin-left: 6vh;
+    width: 3vh;
+    height: 3vh;
+  }
+}
