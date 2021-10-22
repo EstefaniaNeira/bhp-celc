@@ -1,0 +1,78 @@
+@media (min-device-width: 360px) and (max-device-width: 640px) {
+  .buttonLanding {
+    position: absolute;
+    justify-content: center;
+    background: #ef6e23;
+    border: 3px solid #ef6e23;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 11vh;
+    margin-top: 4vh;
+    text-decoration: none;
+    color: #ffffff;
+    width: 35vh;
+    height: 10vh;
+  }
+  .textLanding {
+    height: 92px;
+    width: 276px;
+    left: 48px;
+    top: 444px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: justify;
+    margin-left: 6vh;
+  }
+  .titleLanding {
+    height: 31px;
+    width: 132px;
+    left: 42px;
+    top: 395px;
+    border-radius: nullpx;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000a3;
+    opacity: 95%;
+    margin-left: 4vh;
+  }
+  .lineLanding {
+    background-color: #ef6e23;
+    width: 283px;
+    height: 3px;
+    position: absolute;
+    margin-left: 5vh;
+    margin-top: -2vh;
+  }
+  .imgBody {
+    height: 338px;
+    width: 441px;
+    left: -6px;
+    top: 0px;
+    border-radius: 0px;
+  }
+  .logoBHP {
+    position: absolute;
+    height: 32px;
+    width: 84px;
+    left: 32px;
+    top: 23px;
+    border-radius: 0px;
+  }
+}
