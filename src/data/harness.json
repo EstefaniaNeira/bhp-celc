@@ -1,0 +1,42 @@
+{
+    "harnesType": [
+        {
+            "name": "Arnés trabajos generales",
+            "image": "https://res.cloudinary.com/safescale/image/upload/v1635183841/Safescale/Arnes_cuerpo_completo_mnrnwo.png",
+            "description": "Compuestos normalmente de poliéster o nylon son diseñados para trabajos mecánicos, montaje, construcción, etc."
+        },
+        {
+            "name": "Arnés para soldadores",
+            "image": "https://res.cloudinary.com/safescale/image/upload/v1635184615/Safescale/Arnes_ignifugo_vdce9k.jpg",
+            "description": "Diseñado para trabajos para la soldadura o trabajos en caliente, y fabricado en materiales tales como aramida o materiales similares, este puede tener argollas metálicas."
+        },
+        {
+            "name": "Arnés para eléctricos",
+            "image": "https://res.cloudinary.com/safescale/image/upload/v1635184625/Safescale/Arnes_dielectrico_ys5d6a.jpg",
+            "description": "Diseñado para trabajos relacionados con el manejo de cargas de tensión y arco eléctrico. Debe soportar una carga calórica de 40 cal/cm2, además este arnés no debe tener partes metálicas."
+        }
+    ],
+    "equipment": [
+        {
+            "image":"",
+            "name":"Estrobos de conexión",
+            "description":"",
+            "sap":""
+            
+        },
+        {
+            "image":"",
+            "name":"Estrobo amortiguador de impacto",
+            "description":"",
+            "sap":""
+            
+        },
+        {
+            "image":"",
+            "name":"Cinta Anti-trauma",
+            "description":"",
+            "sap":""
+            
+        }
+    ]
+}
