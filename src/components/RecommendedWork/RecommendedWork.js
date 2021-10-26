@@ -89,9 +89,9 @@ const RecommendedWork = () => {
             suma = valor + suma
           }
           if (ert >= suma) {
-            alert('Puedes')
+            alert('Puedes seguir realizando tu trabajo ')
           } else {
-            alert('No podi')
+            alert('Existe riesgo de caída, contactate con el supervisor')
           }
           return suma
         
