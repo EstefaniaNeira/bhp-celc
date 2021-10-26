@@ -1,0 +1,10 @@
+import React from "react";
+
+const Checklist = () => {
+  return (
+    <h1>Check-list</h1>
+    <h2>Arnés de seguridad y punto de anclaje </h2>
+  );
+};
+
+export default Checklist;
