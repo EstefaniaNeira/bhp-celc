@@ -9,17 +9,37 @@
   }
   .titleChecklist {
     position: absolute;
-left: -2.78%;
-right: 1.39%;
-top: 1.79%;
-bottom: 93.54%;
-font-family:ariel;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-text-align: center;
-color: rgba(0, 0, 0, 0.64);
-
+    left: -2.78%;
+    right: 1.39%;
+    top: 1.79%;
+    bottom: 93.54%;
+    font-family: ariel;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.64);
+  }
+  .buttonCalculationChecklist {
+    position: absolute;
+    justify-content: center;
+    background: #ef6e23;
+    border: 3px solid #ef6e23;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 11vh;
+    margin-top: 23vh;
+    text-decoration: none;
+    color: #ffffff;
+    width: 35vh;
+    height: 10vh;
   }
 }
