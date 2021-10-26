@@ -5,6 +5,7 @@ import Landing from "./components/Landing/Landing";
 import Registration from "./components/Registration/Registration";
 import SOS from "./components/SOS/SOS";
 import RecommendedWork from "./components/RecommendedWork/RecommendedWork";
+import Harness from "./components/Harness/harness";
 
 const Routes = () => {
   return (
@@ -15,6 +16,7 @@ const Routes = () => {
           <Route exact path="/" component={Landing} />
           <Route path="/registration" component={Registration} />
           <Route path="/SOS" component={SOS} />
+          <Route path="/Harness" component={Harness} />
           <Route path="/RecommendedWork" component={RecommendedWork} />
       
 
