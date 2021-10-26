@@ -8,7 +8,6 @@ const harness = () => {
         <div className="tituloLinea">
             <h1>Selecciona tu tipo de arnés.</h1>
             <div>
-                {harness}
             </div>
         </div>
     )
