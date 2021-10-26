@@ -51,7 +51,7 @@ const Registration = () => {
           <Button exact href="/" className={classes.buttonRegistration}>
             Siguiente
           </Button>
-          <Button exact href="/" className={classes.buttonCalculation}>
+          <Button exact href="/RecommendedWork" className={classes.buttonCalculation}>
             Calcular ELC
           </Button>
         </Link>

@@ -6,15 +6,23 @@ import Registration from "./components/Registration/Registration";
 import SOS from "./components/SOS/SOS";
 import Checklist from "./components/Checklist/Checklist";
 
+import RecommendedWork from "./components/RecommendedWork/RecommendedWork";
 const Routes = () => {
   return (
     <>
       <Router>
         <Switch>
+
           <Route exact path="/" component={Landing}></Route>
           <Route path="/registration" component={Registration}></Route>
-          <Route path="/Checklist" component={Checklist}></Route>
           <Route path="/SOS" component={SOS}></Route>
+
+          <Route path="/Checklist" component={Checklist}></Route>
+          <Route path="/RecommendedWork" component={RecommendedWork} />
+      
+      
+
+
         </Switch>
       </Router>
     </>
