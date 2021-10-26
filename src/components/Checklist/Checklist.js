@@ -3,6 +3,7 @@ import { BrowserRouter as Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import classes from "./../Checklist/Checklist.module.css";
 
+
 const Checklist = () => {
   return (
     <>
@@ -181,9 +182,7 @@ const Checklist = () => {
           <Link>
             <Button
               exact
-              href="/"
-              className={classes.buttonCalculationChecklist}
-            >
+              href="/RecommendedWork" className={classes.buttonCalculationChecklist}>
               Calcular ELC
             </Button>
           </Link>
