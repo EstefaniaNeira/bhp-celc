@@ -1,0 +1,56 @@
+@media (min-device-width: 360px) and (max-device-width: 640px) {
+
+.BHPlogo {
+  position: absolute;
+  height: 32px;
+  width: 84px;
+  left: 32px;
+  top: 23px;
+  border-radius: 0px;
+}
+.SOSIcon {
+  width: 10vh;
+  height: 11vh;
+  margin-top: 2vh;
+  margin-left: 40vh;
+}
+.Campo {
+  justify-content: center;
+  height: 100vh;
+  width: 50vh;
+  border-color: #ef6e23;
+  margin-top: 3vh;
+  border-radius: 7px;
+}
+.form{
+  justify-content: center;
+  margin-left: 4vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: unset;
+  line-height: 30px;
+  letter-spacing: 0em;
+  }  
+
+.buttonForm{
+    position: absolute;
+    justify-content: center;
+    background: #ef6e23;
+    border: 3px solid #ef6e23;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 6vh;
+    margin-top: 9vh;
+    text-decoration: none;
+    color: #ffffff;
+    width: 35vh;
+    height: 10vh;
+  }
+}
