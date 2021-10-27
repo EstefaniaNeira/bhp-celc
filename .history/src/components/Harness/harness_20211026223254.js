@@ -1,4 +1,3 @@
-
 import React from 'react'
 import { BrowserRouter as Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
@@ -46,4 +45,3 @@ const harness = () => {
 }
 
 export default harness
-

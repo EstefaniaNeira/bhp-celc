@@ -157,6 +157,7 @@ const Checklist = () => {
             value=""
             id="flexCheckDefault"
           ></input>
+
         </p>
         <h6 className={classes.textlist}>Estado de los puntos de anclaje </h6>
         <div className={classes.textlist}>
@@ -226,11 +227,15 @@ const Checklist = () => {
               id="flexCheckDefault"
             ></input>
           </p>
+
+
         </div>
       </div>
       <Link>
-        <Button href="/RecommendedWork" className={classes.buttonCalculationChecklist}>
-          Calcular ELC
+        <Button>
+        href="/RecommendedWork" className={classes.buttonCalculationChecklist};
+              Calcular ELC
+        
         </Button>
       </Link>
     </>

@@ -14,7 +14,7 @@ const SOS = () => {
         ESPERE UN MOMENTO, LO ESTAMOS CONTACTANDO CON EL SUPERVISOR MAS CERCANO
       </div>
       <Link>
-        <Button exact href="/" className={classes.SOSbutton}>Colgar</Button>
+        <Button exact href="/" className={classes.SOS}></Button>
       </Link>
     </div>
   );

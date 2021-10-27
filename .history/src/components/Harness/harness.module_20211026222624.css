@@ -1,4 +1,3 @@
-
 @media (min-device-width: 360px) and (max-device-width: 640px) {
     .SOSIcon {
       width: 10vh;
@@ -28,27 +27,5 @@
       letter-spacing: 0em;
       text-align: justify;
       margin-left: 6vh
-    }
-
-    .goChecklist{
-      position: absolute;
-      justify-content: center;
-      background: #ef6e23;
-      border: 3px solid #ef6e23;
-      box-sizing: border-box;
-      border-radius: 4px;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 16px;
-      line-height: 90px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      margin-left: 11vh;
-      margin-top: 11vh;
-      text-decoration: none;
-      color: #ffffff;
-      width: 35vh;
-      height: 10vh;
     }
 }

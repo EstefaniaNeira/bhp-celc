@@ -2,8 +2,8 @@ import React from "react";
 import classes from "./../SOS/SOS.module.css";
 import logoBHP from "./../../assets/logoBHP.png";
 import sos from "./../../assets/sos.png";
-import { BrowserRouter as Link } from "react-router-dom";
-import Button from "react-bootstrap/Button";
+//import { BrowserRouter as Link } from "react-router-dom";
+//import Button from "react-bootstrap/Button";
 
 const SOS = () => {
   return (
@@ -13,9 +13,7 @@ const SOS = () => {
       <div className={classes.textSOS}>
         ESPERE UN MOMENTO, LO ESTAMOS CONTACTANDO CON EL SUPERVISOR MAS CERCANO
       </div>
-      <Link>
-        <Button exact href="/" className={classes.SOSbutton}>Colgar</Button>
-      </Link>
+      <Button exact href="SOS" className={classes.SOS}></Button>
     </div>
   );
 };
