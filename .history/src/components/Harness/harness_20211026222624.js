@@ -1,6 +1,4 @@
 import React from 'react'
-import { BrowserRouter as Link } from "react-router-dom";
-import Button from "react-bootstrap/Button";
 import Harness from '../../data/harness.json'
 import logoBHP from "./../../assets/logoBHP.png";
 import classes from "./../Harness/harness.module.css";
@@ -34,12 +32,6 @@ const harness = () => {
                     );
                 })}
             </div>
-            <Link>
-        <Button href="/Checklist" className={classes.goChecklist}>
-          Siguiente
-        
-        </Button>
-      </Link>
         </div>
     )
 }
