@@ -3,7 +3,6 @@ import { BrowserRouter as Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import classes from "./../Checklist/Checklist.module.css";
 
-
 const Checklist = () => {
   return (
     <>
@@ -157,7 +156,6 @@ const Checklist = () => {
             value=""
             id="flexCheckDefault"
           ></input>
-
         </p>
         <h6 className={classes.textlist}>Estado de los puntos de anclaje </h6>
         <div className={classes.textlist}>
@@ -227,13 +225,10 @@ const Checklist = () => {
               id="flexCheckDefault"
             ></input>
           </p>
-
-
         </div>
       </div>
       <Link>
-        href="/RecommendedWork" className={classes.buttonCalculationChecklist}>
-              Calcular ELC
+        <Button exact href="/" className={classes.buttonCalculationChecklist}>
           Calcular ELC
         </Button>
       </Link>
