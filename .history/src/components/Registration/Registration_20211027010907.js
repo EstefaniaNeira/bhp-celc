@@ -26,18 +26,12 @@ const Registration = (props) => {
     console.log("onClick");
   };
   const onChangeName = (value) => {
-    const nameTextInput = value
-    const nameTextFormatted = nameTextInput.replace(/[^a-zA-ZáéíñóúüÁÉÍÑÓÚÜ´'\s]/g, '')
-    setName(nameTextFormatted)
-   
+    setName(value);
     console.log(name);
   };
 
   const onChangeRut = (value) => {
-    const rutTextInput = value
-    const rutTextFormatted = rutTextInput.replace(/[^0-9-´'\s]/g, '')
-    setRut(rutTextFormatted)
-    
+    setRut(value);
     console.log(rut);
   };
   return (

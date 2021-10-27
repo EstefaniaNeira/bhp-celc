@@ -1,6 +1,5 @@
 import { initializeApp } from 'firebase/app';
-import { getFirestore } from 'firebase/firestore';
-
+import "firebase/database";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -17,7 +16,6 @@ const config = {
   measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENTID,
 };
 
-const app = initializeApp(config);
-const db = getFirestore(app);
+const app = initializeApp(firebaseConfig);
 
-export default db;
+export default firebase.database();

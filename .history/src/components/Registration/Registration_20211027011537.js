@@ -37,7 +37,7 @@ const Registration = (props) => {
     const rutTextInput = value
     const rutTextFormatted = rutTextInput.replace(/[^0-9-´'\s]/g, '')
     setRut(rutTextFormatted)
-    
+    setRut(value);
     console.log(rut);
   };
   return (

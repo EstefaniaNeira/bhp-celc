@@ -1,43 +1,35 @@
 import React, { useState } from "react"; //useState  variable que se pueden ir modificando
-import { BrowserRouter as Link, withRouter} from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import classes from "./../Registration/Registration.module.css";
 import BHPlogo from "./../../assets/logoBHP.png";
 import sos from "./../../assets/sos.png";
 import Form from "react-bootstrap/Form";
 import dbFirebase from "./../../data/firebaseConfig";
-import { collection, doc, setDoc } from "firebase/firestore";
+import { doc, setDoc } from "firebase/firestore";
 
 //setNamen es la funcion (2do parametro) para cambiarle el valor al estado (name)
-const Registration = (props) => {
+const Registration = () => {
   const [name, setName] = useState("");
   const [rut, setRut] = useState("");
-  const [db] = useState(dbFirebase);
+  const [db] = useState(dbFirebase.ref("/login"));
   const handleSubmit = async (e) => {
     e.preventDefault(); //previene que se caiga la app
     if (name !== null && rut !== null) {
-      const loginRef = doc(collection(db, "login"));
-      await setDoc(loginRef, {
+      await setDoc(doc(db, "login"), {
         name: name,
         rut: rut,
       });
-      props.history.push('/Harness')
     }
     console.log("onClick");
   };
   const onChangeName = (value) => {
-    const nameTextInput = value
-    const nameTextFormatted = nameTextInput.replace(/[^a-zA-ZáéíñóúüÁÉÍÑÓÚÜ´'\s]/g, '')
-    setName(nameTextFormatted)
-   
+    setName(value);
     console.log(name);
   };
 
   const onChangeRut = (value) => {
-    const rutTextInput = value
-    const rutTextFormatted = rutTextInput.replace(/[^0-9-´'\s]/g, '')
-    setRut(rutTextFormatted)
-    
+    setRut(value);
     console.log(rut);
   };
   return (
@@ -115,4 +107,4 @@ const Registration = (props) => {
   );
 };
 
-export default withRouter(Registration);
+export default Registration;
