@@ -14,7 +14,7 @@
       top: 23px;
       border-radius: 0px;
     }
-    .tituloLinea { 
+    .TituloLinea { 
       height: 92px;
       width: 276px;
       left: 48px;
@@ -27,7 +27,7 @@
       line-height: 24px;
       letter-spacing: 0em;
       text-align: justify;
-      margin-left: 6vh
+      margin-left: 11vh;
     }
 
     .goChecklist{
@@ -51,4 +51,21 @@
       width: 35vh;
       height: 10vh;
     }
-}
+    .imageSelector {
+      width: 80%;
+      margin-left: 6vh;
+      justify-content: center;
+    }
+    .formSelect {
+      margin-left: 5vh;
+      background: #FFFFFF;
+      border: 1.5px solid #EF6E23;
+      border-radius: 4px;
+      height: 6vh;
+      width: 43vh;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: bold;
+    }
+
+  }
