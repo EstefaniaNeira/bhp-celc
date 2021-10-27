@@ -5,8 +5,7 @@ import classes from "./RecommendedWork.module.css";
 import BHPlogo from "./../../assets/logoBHP.png";
 import sos from "./../../assets/sos.png";
 import Form from "react-bootstrap/Form";
-
-const TituloLinea = ({ texto }) => <h3 className={classes.TituloLinea}>{texto}</h3>
+import TituloLinea from "./TituloLinea";
 
 const Campo = ({ label, setValor, fijos }) => {
     const props = {
@@ -72,8 +71,7 @@ const RecommendedWork = () => {
                 </Link>
             </div>
 
-            <TituloLinea
-                texto={"Cálculo Espacio libre de caída"} />
+            <TituloLinea texto={"Cálculo Espacio libre de caída"} />
             <div className={classes.lineRegistration}></div>
 
             <Formulario
