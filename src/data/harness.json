@@ -1,0 +1,139 @@
+{
+    "harnesType": [
+        {
+            "name": "Arnés trabajos generales",
+            "image": "https://res.cloudinary.com/safescale/image/upload/v1635183841/Safescale/Arnes_cuerpo_completo_mnrnwo.png",
+            "description": "Compuestos normalmente de poliéster o nylon son diseñados para trabajos mecánicos, montaje, construcción, etc.",
+            "sap": "Codigo SAP: B101"
+        },
+        {
+            "name": "Arnés para soldadores",
+            "image": " https://res.cloudinary.com/safescale/image/upload/v1635184615/Safescale/Arnes_ignifugo_vdce9k.jpg",
+            "description": "Diseñado para trabajos para la soldadura o trabajos en caliente, y fabricado en materiales tales como aramida o materiales similares, este puede tener argollas metálicas.",
+            "sap": "Codigo SAP: B102"
+        },
+        {
+            "name": "Arnés para eléctricos",
+            "image": "https://res.cloudinary.com/safescale/image/upload/v1635184625/Safescale/Arnes_dielectrico_ys5d6a.jpg",
+            "description": "Diseñado para trabajos relacionados con el manejo de cargas de tensión y arco eléctrico. Debe soportar una carga calórica de 40 cal/cm2, además este arnés no debe tener partes metálicas.",
+            "sap": "Codigo SAP: B103"
+        }
+    ],
+    "equipment": [
+        {
+            "image": "https://res.cloudinary.com/safescale/image/upload/v1635219957/Safescale/estrobo_de_conexion_lp9tcp.jpg",
+            "name": "Estrobos de conexión",
+            "description": "El estrobo un dispositivo de conexión entre el punto de anclaje y el arnés del trabajador. Existen diferentes tipos, tanto para detener una caída como para restringir el movimiento y evitar una caída.",
+            "sap": "Codigo SAP: A101"
+        },
+        {
+            "image": "https://res.cloudinary.com/safescale/image/upload/v1635219957/Safescale/estrobo_amortiguador_ayi539.webp",
+            "name": "Estrobo amortiguador de impacto",
+            "description": "El amortiguador de impacto es un componente diseñado para disipar la energía cinética generada durante una caída que limita las fuerzas de detención aplicadas al SDDC, al dispositivo de anclaje y al usuario.",
+            "sap": "Codigo SAP: A102"
+        },
+        {
+            "image": "https://res.cloudinary.com/safescale/image/upload/v1635219958/Safescale/cinta_antitrauma_piiteb.jpg",
+            "name": "Cinta Anti-trauma",
+            "description": "En la última etapa de la caída está la suspensión, los segundos son muy importantes para la vida del trabajador. El objetivo de estas es liberar la presión que se genera en la arteria femoral, provocada por el peso del cuerpo y las cintas primarias del arnés",
+            "sap": "Codigo SAP: A103"
+        },
+        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219959/Safescale/limitador_de_caidas_pxq8un.png",
+            "name":"Limitador de caidas",
+            "description":"Este dispositivo es similar al auto retráctil, pero estos proporcionan una mayor rapidez de activación, y en la mayoría de los casos la persona no alcanza a caer. Se utilizan como restrictor de movimientos o detenedor de caídas.",
+            "sap":"Codigo SAP: A104"
+        },
+        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219958/Safescale/linea_de_vida_autoretractil_cel2qm.jpg",
+            "name":"Linea de vida autoretráctil",
+            "description":"La línea de vida autorretráctil es un subsistema conectable que se ancla sobre el lugar de trabajo y que incorpora una línea de vida traccionada, la cual se extrae y retrae automáticamente en respuesta a los movimientos normales de un usuario, y un medio de freno el cual traba y mantiene automáticamente la línea de vida en respuesta al movimiento repentino de una caída",
+            "sap":"Codigo SAP: A105"
+        },
+        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219958/Safescale/linea_de_vida_horizontal_z4n5po.jpg",
+            "name":"Linea de vida horizontal",
+            "description":"La línea de vida horizontal o LVH está asegurada en sus extremos a puntos de anclaje, para que se pueda fijar un dispositivo de tipo deslizante y ofrecer protección al trabajador durante el movimiento horizontal en superficies en alturas.",
+            "sap":"Codigo SAP: A106"
+        },
+        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219958/Safescale/tipos-lineas-de-vida-cable_srsrum.jpg",
+            "name":"Linea de vida horizontal permanente a cable",
+            "description":"Las líneas de vida horizontal que son permanentes deben ser de acero inoxidable. La construcción del cable de 1x19 o 7x7 es solicitado por norma EN795:2012 tipo C.",
+            "sap":"Codigo SAP: A107"
+        },
+        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219957/Safescale/linea-de-vida-horizontal-permanente_riel_vf19na.jpg",
+            "name":"Linea de vida horizontal permanente a riel",
+            "description":"Los sistemas de rieles a diferencia de los sistemas de cables y puntos de anclaje ofrecen la ventaja de poder ser instalados y usados como pasamanos. El riel puede absorber fuerzas de retención de hasta 100 kg sin deformación permanente.",
+            "sap":"Codigo SAP: A108"
+        },
+        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219958/Safescale/linea_de_vida_temporal_dk5fns.jpg",
+            "name":"Linea de vida horizontal temporal",
+            "description":"El sistema debe desmontarse después del trabajo. Además, el sistema debe contar con un amortiguador de caída, indicador de tensión, cable, tensionador, prensa para línea de vida.",
+            "sap":"Codigo SAP: A109"
+        },
+        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219958/Safescale/linea_de_vida_verticalpermanente_btxgc5.jpg",
+            "name":"Linea de vida vertical permanente",
+            "description":"Está asegurada permanentemente a una posición en su extremidad inferior a una escala fija u otra estructura, a la cual se puede fijar un dispositivo para detención tipo deslizante",
+            "sap":"Codigo SAP: A110"
+        },
+        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219958/Safescale/riel-sistema-de-linea-de-vida-vertical-_oqkks1.jpg",
+            "name":"Riel vertical",
+            "description":"Riel vertical o RV es una vía rígida que está asegurada permanentemente a una escala fija u otra estructura, mediante un número de soportes a intervalos a lo largo de su longitud y a la cual, se puede fijar un dispositivo para detención tipo deslizante",
+            "sap":"Codigo SAP: A111"
+        },
+        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219958/Safescale/conector_db06vl.png",
+            "name":"Conector",
+            "description":"Se utiliza mediante la unión o conexión de dos componentes o subsistemas compatibles entre sí, un conector tiene una abertura protegida mediante una puerta de cierre automático con un dispositivo de trabado automático, mecanismo que opera automáticamente sobre el cierre de la puerta y se abre mediante al menos dos operaciones deliberadas consecutivas.",
+            "sap":"Codigo SAP: A112"
+        },
+        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219958/Safescale/punto_de_anclaje_omhopv.png",
+            "name":"Punto de anclaje",
+            "description":"El punto de anclaje o A es un punto seguro para la sujeción del SDDC a la estructura disponible. Los puntos de anclaje incluyen, pero no se limitan a, elementos de acero, vigas, equipo pesado y puntos de anclajes especialmente diseñados (móviles o fijos).",
+            "sap":"Codigo SAP: A113"
+        },        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219957/Safescale/plataforma-elevadora-pemp_tmvxcv.jpg",
+            "name":"Punto de anclaje en plataformas elevadoras",
+            "description":"Estan presentes cuando se realiza un trabajo en altura en plataformas elevadoras como manlift o camiones canastillos, estos deben tener puntos de anclaje incorporados en el diseño del mismo, y certificados de fábrica.",
+            "sap":"Codigo SAP: A114"
+        },
+        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219957/Safescale/lazo_de_anclaje_zjcczc.jpg",
+            "name":"Lazos de anclaje",
+            "description":"Es un dispositivo que hace la compatibilidad entre el anclaje y todo el sistema de detención de caída o restricción de movimiento. Tiene una finalidad similar a la de una argolla de anclaje permanente, pero con la diferencia que es un equipo que está diseñado para ser utilizado de forma temporal.",
+            "sap":"Codigo SAP: A115"
+        },
+        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219957/Safescale/punto-de-anclaje_para_vigas_snrojj.png",
+            "name":"Punto de anclaje desmontable para vigas",
+            "description":"Son aparatos certificados diseñados para generar puntos de anclaje en vigas estructurales horizontales que puede ser fija o móvil, y para el caso de vigas verticales solo puede usarse al anclaje para vigas fijo.",
+            "sap":"Codigo SAP: A116"
+        },
+        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219957/Safescale/punto_de_anclaje_para_greating_dznmod.jpg",
+            "name":"Punto de anclaje para greating",
+            "description":"Son aparatos certificados diseñados para generar puntos de anclaje bajo estructuras de greating. Son ideales cuando no sea posible instalar lazos de anclaje. Estas deben quedar apoyada entre dos vigas de soporte de los greating.",
+            "sap":"Codigo SAP: A117"
+        },
+        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219957/Safescale/punto_de_anclaje_movil_yb1u1n.jpg",
+            "name":"Brazos de anclaje móviles",
+            "description":"Son estructuras certificadas de acuerdo a los requisitos indicados en OSHA para trabajos en altura, estas requieren de un peso en la parte inferior para poder dar estabilidad al equipo. Estas son ideales para trabajos sobre camiones rampla o camiones aljibes que no cuenten con barandas.",
+            "sap":"Codigo SAP: A118"
+        },
+        {
+            "image":"https://res.cloudinary.com/safescale/image/upload/v1635219957/Safescale/portico_de_anclaje_ypriw2.jpg",
+            "name":"Pórticos de anclaje",
+            "description":"Son estructuras diseñadas en materiales ligeros para facilitar su traslado. Esto se utiliza para poder generar puntos de anclaje sobre cabeza, donde no existen en la estructura que se va a utilizar. La conexión entre la estructura y la persona es a través de un dispositivo auto retráctil.",
+            "sap":"Codigo SAP: A119"
+        }
+        
+    ]
+}
+
