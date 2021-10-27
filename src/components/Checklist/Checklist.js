@@ -8,186 +8,235 @@ const Checklist = () => {
   return (
     <>
       <div>
-        <h1 clasName={classes.titleChecklist}>Check-list</h1>
-        <h2>Arnés de seguridad y punto de anclaje </h2>
+        <h1 className={classes.textChecklist}>Check-list</h1>
+        <h2 className={classes.textSubCheck}>
+          Arnés de seguridad y punto de anclaje
+        </h2>
       </div>
       <div className={classes.lineChecklist}></div>
-      <h3>Estado de Arnés</h3>
-      <div class="form-check">
-        ¿Se encuentra libre de grasas,pinturas,etc.?
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        ></input>
-        ¿Tiene hebras cortadas o dañadas?
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        ></input>
-        ¿Presenta costuras deshilachadas?
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        ></input>
-        ¿Posee la placa de identificación?
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        ></input>
-        ¿Se encontraba correctamente almacenado?
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        ></input>
-        ¿presenta cortes o desgarros?
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        ></input>
-        ¿Posee el tag de ispección cesmec?
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        ></input>
+
+      <h3 className={classes.textlist}>Estado de Arnés</h3>
+      <div className={classes.inputTextlist}>
+        <p>
+          ¿Se encuentra libre de grasas,pinturas,etc.?
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          ></input>
+        </p>
+        <p>
+          ¿Tiene hebras cortadas o dañadas?
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          ></input>
+        </p>
+        <p>
+          ¿Presenta costuras deshilachadas?
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          ></input>
+        </p>
+        <p>
+          ¿Posee la placa de identificación?
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          ></input>
+        </p>
+        <p>
+          ¿Se encontraba correctamente almacenado?
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          ></input>
+        </p>
+        <p>
+          ¿presenta cortes o desgarros?
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          ></input>
+        </p>
+        <p>
+          ¿Posee el tag de ispección cesmec?
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          ></input>
+        </p>
       </div>
-      <h4>Estado de los Accesorios</h4>
-      <div class="form-check">
-        ¿Los anillos en D presentan desformaciones?
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        ></input>
-        ¿Están las hebillas en buen estado?
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        ></input>
-        ¿Mantiene los elementos plásticos?
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        ></input>
-        ¿Los elementos plásticos están en buen estado?
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        ></input>
+      <h4 className={classes.textlist}>Estado de los Accesorios</h4>
+      <div className={classes.textlist}>
+        <p>
+          ¿Los anillos en D presentan desformaciones?
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          ></input>
+        </p>
+        <p>
+          ¿Están las hebillas en buen estado?
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          ></input>
+        </p>
+        <p>
+          ¿Mantiene los elementos plásticos?
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          ></input>
+        </p>
+        <p>
+          ¿Los elementos plásticos están en buen estado?
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          ></input>
+        </p>
       </div>
-      <h5>Estado de la cuerda de vida </h5>
-      <div class="form-check">
-        ¿Se encuentra libre de grasas,puntura, etc.?
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        ></input>
-        ¿Están los ganchos en buen estado?
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        ></input>
-        ¿Presenta cortes en sus hebras?
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        ></input>
-        ¿Presenta costuras deshilachadas?
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        ></input>
-        <h6>Estado de los puntos de anclaje </h6>
-        <div class="form-check">
-          ¿Se visualiza alguna modificación o alteración del punto de anclaje?
+      <h5 className={classes.textlist}>Estado de la cuerda de vida </h5>
+      <div className={classes.textlist}>
+        <p>
+          ¿Se encuentra libre de grasas,puntura, etc.?
           <input
             class="form-check-input"
             type="checkbox"
             value=""
             id="flexCheckDefault"
           ></input>
-          ¿El punto de anclaje a utilizar esta identificado de color amarillo?
+        </p>
+        <p>
+          ¿Están los ganchos en buen estado?
           <input
             class="form-check-input"
             type="checkbox"
             value=""
             id="flexCheckDefault"
           ></input>
-          ¿Se encuentra accesible el punto de anclaje a utilizar?
+        </p>
+        <p>
+          ¿Presenta cortes en sus hebras?
           <input
             class="form-check-input"
             type="checkbox"
             value=""
             id="flexCheckDefault"
           ></input>
-          ¿Existe deformación en alguno de los
-          componentes(argolla,placa,pernos,etc.)?
+        </p>
+        <p>
+          ¿Presenta costuras deshilachadas?
           <input
             class="form-check-input"
             type="checkbox"
             value=""
             id="flexCheckDefault"
           ></input>
-          ¿Se encuentra instaladala placa identificadora que muestra el código,
-          capacidad y estado de aprobación?
-          <input
-            class="form-check-input"
-            type="checkbox"
-            value=""
-            id="flexCheckDefault"
-          ></input>
-          ¿Esta placa cuenta con la fecha de validación, tipo y fijación de
-          anclaje?
-          <input
-            class="form-check-input"
-            type="checkbox"
-            value=""
-            id="flexCheckDefault"
-          ></input>
-          ¿Se aprecian fisuras o golpes en el punto de anclaje?
-          <input
-            class="form-check-input"
-            type="checkbox"
-            value=""
-            id="flexCheckDefault"
-          ></input>
-          <Link>
-            <Button
-              exact
-              href="/RecommendedWork" className={classes.buttonCalculationChecklist}>
-              Calcular ELC
-            </Button>
-          </Link>
+
+        </p>
+        <h6 className={classes.textlist}>Estado de los puntos de anclaje </h6>
+        <div className={classes.textlist}>
+          <p>
+            ¿Se visualiza alguna modificación o alteración del punto de anclaje?
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            ></input>{" "}
+          </p>
+          <p>
+            ¿El punto de anclaje a utilizar esta identificado de color amarillo?
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            ></input>
+          </p>
+          <p>
+            ¿Se encuentra accesible el punto de anclaje a utilizar?
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            ></input>
+          </p>
+          <p>
+            ¿Existe deformación en alguno de los
+            componentes(argolla,placa,pernos,etc.)?
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            ></input>
+          </p>
+          <p>
+            ¿Se encuentra instaladala placa identificadora que muestra el
+            código, capacidad y estado de aprobación?
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            ></input>
+          </p>
+          <p>
+            ¿Esta placa cuenta con la fecha de validación, tipo y fijación de
+            anclaje?
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            ></input>
+          </p>
+          <p>
+            ¿Se aprecian fisuras o golpes en el punto de anclaje?
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            ></input>
+          </p>
+
+
         </div>
       </div>
+      <Link>
+        href="/RecommendedWork" className={classes.buttonCalculationChecklist}>
+              Calcular ELC
+          Calcular ELC
+        </Button>
+      </Link>
     </>
   );
 };

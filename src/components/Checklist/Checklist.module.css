@@ -1,26 +1,13 @@
 @media (min-device-width: 360px) and (max-device-width: 640px) {
   .lineChecklist {
     background-color: #ef6e23;
-    width: 283px;
+    width: 52vh;
     height: 3px;
     position: absolute;
-    margin-left: 5vh;
-    margin-top: -2vh;
+    margin-left: 2vh;
+    margin-top: -1vh;
   }
-  .titleChecklist {
-    position: absolute;
-    left: -2.78%;
-    right: 1.39%;
-    top: 1.79%;
-    bottom: 93.54%;
-    font-family: ariel;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.64);
-  }
+
   .buttonCalculationChecklist {
     position: absolute;
     justify-content: center;
@@ -41,5 +28,37 @@
     color: #ffffff;
     width: 35vh;
     height: 10vh;
+  }
+  .textChecklist {
+    text-align: center;
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 5vh;
+    opacity: 65%;
+  }
+  .textSubCheck {
+    text-align: center;
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 5vh;
+    opacity: 65%;
+  }
+  .textlist {
+    text-align: start;
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 5vh;
+    opacity: 65%;
+    margin-left: 2vh;
+  }
+  .inputTextlist {
+    text-align: start;
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 5vh;
+    opacity: 65%;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    line-height: 4vh;
   }
 }
