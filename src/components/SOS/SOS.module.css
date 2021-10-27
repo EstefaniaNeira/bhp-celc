@@ -1,0 +1,54 @@
+.logooBHP{
+    position: absolute;
+    height: 32px;
+    width: 84px;
+    left: 32px;
+    top: 23px;
+    border-radius: 0px;
+}
+
+.SOSIcoN{
+    height: 39vh;
+    width: 34vh;
+    margin-top: 17vh;
+    margin-left: 9vh;
+}
+
+.textSOS{
+    height: 92px;
+    width: 276px;
+    left: 48px;
+    top: 444px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: bold;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: justify;
+    margin-left: 6vh;
+    margin-top: 2vh;
+}
+
+.SOSbutton{
+    position: absolute;
+    justify-content: center;
+    background: #ef6e23;
+    border: 3px solid #ef6e23;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 11vh;
+    margin-top: 11vh;
+    text-decoration: none;
+    color: #ffffff;
+    width: 35vh;
+    height: 10vh;
+}

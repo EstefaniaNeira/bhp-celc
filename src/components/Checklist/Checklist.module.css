@@ -1,0 +1,64 @@
+@media (min-device-width: 360px) and (max-device-width: 640px) {
+  .lineChecklist {
+    background-color: #ef6e23;
+    width: 52vh;
+    height: 3px;
+    position: absolute;
+    margin-left: 2vh;
+    margin-top: -1vh;
+  }
+
+  .buttonCalculationChecklist {
+    position: absolute;
+    justify-content: center;
+    background: #ef6e23;
+    border: 3px solid #ef6e23;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 11vh;
+    margin-top: 23vh;
+    text-decoration: none;
+    color: #ffffff;
+    width: 35vh;
+    height: 10vh;
+  }
+  .textChecklist {
+    text-align: center;
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 5vh;
+    opacity: 65%;
+  }
+  .textSubCheck {
+    text-align: center;
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 5vh;
+    opacity: 65%;
+  }
+  .textlist {
+    text-align: start;
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 5vh;
+    opacity: 65%;
+    margin-left: 2vh;
+  }
+  .inputTextlist {
+    text-align: start;
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 5vh;
+    opacity: 65%;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    line-height: 4vh;
+  }
+}

@@ -48,10 +48,10 @@ const Registration = () => {
 
 
         <Link>
-          <Button exact href="/" className={classes.buttonRegistration}>
+          <Button exact href="/Harness" className={classes.buttonRegistration}>
             Siguiente
           </Button>
-          <Button exact href="/" className={classes.buttonCalculation}>
+          <Button exact href="/RecommendedWork" className={classes.buttonCalculation}>
             Calcular ELC
           </Button>
         </Link>
