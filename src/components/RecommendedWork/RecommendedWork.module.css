@@ -1,0 +1,101 @@
+@media (min-device-width: 360px) and (max-device-width: 640px) {
+
+.BHPlogo {
+  position: absolute;
+  height: 32px;
+  width: 84px;
+  left: 32px;
+  top: 23px;
+  border-radius: 0px;
+}
+.SOSIcon {
+  width: 10vh;
+  height: 11vh;
+  margin-top: 2vh;
+  margin-left: 40vh;
+}
+.campoSuma {
+  justify-content: center;
+  height: 100vh;
+  width: 50vh;
+  border-color: #ef6e23;
+  margin-top: 10vh;
+  border-radius: 7px;
+  
+}
+.form{
+  justify-content: center;
+  margin-left: 5vh;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin-top: 5vh;
+  
+  }  
+
+.buttonForm{
+    position: absolute;
+    justify-content: center;
+    background: #ef6e23;
+    border: 3px solid #ef6e23;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 5vh;
+    margin-top: 9vh;
+    text-decoration: none;
+    color: #ffffff;
+    width: 35vh;
+    height: 10vh;
+    box-shadow: 3px 7px #88888060;
+  }
+
+  .TituloLinea{
+    height: 31px;
+    width: 213px;
+    left: 42px;
+    top: 395px;
+    border-radius: nullpx;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: unset;
+    font-weight: bold;
+    line-height: 29px;
+    text-align: revert;
+    color: #000000a3;
+    opacity: 95%;
+    margin-left: 5vh;
+    margin-top: 1vh;
+  }
+  .lineRegistration {
+    background-color: #ef6e23;
+    width: 283px;
+    height: 3px;
+    position: absolute;
+    margin-left: 5vh;
+    margin-top: -2vh;
+  }
+  .pResults {
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    margin-left: 25vh;
+    color: #000000a3;
+    line-height: 29px;
+    font-weight: bold;
+  }
+}
+
+.label{
+  background-color: #EF6E23;
+  border-radius: 5px;
+  margin-right: 100px;
+  line-height: 35px;
+}
