@@ -118,4 +118,3 @@ const Registration = (props) => {
 };
 
 export default withRouter(Registration);
-
