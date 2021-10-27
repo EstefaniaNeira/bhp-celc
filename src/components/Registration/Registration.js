@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react"; //useState  variable que se pueden ir modificando
 import { BrowserRouter as Link, withRouter} from "react-router-dom";
 import Button from "react-bootstrap/Button";
@@ -116,3 +117,5 @@ const Registration = (props) => {
 };
 
 export default withRouter(Registration);
+=======
+>>>>>>> 3f63580191701e4be58b50f92bf8a71c4a139d3c
