@@ -1,5 +1,5 @@
 import { initializeApp } from 'firebase/app';
-import { getFirestore } from 'firebase/firestore';
+import { getFirestore } from 'firebase/firestore/lite';
 
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -18,6 +18,5 @@ const config = {
 };
 
 const app = initializeApp(config);
-const db = getFirestore(app);
 
-export default db;
+export default app;

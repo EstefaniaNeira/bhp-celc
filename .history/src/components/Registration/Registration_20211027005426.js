@@ -1,48 +1,36 @@
-
 import React, { useState } from "react"; //useState  variable que se pueden ir modificando
-import { BrowserRouter as Link, withRouter } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import classes from "./../Registration/Registration.module.css";
 import BHPlogo from "./../../assets/logoBHP.png";
 import sos from "./../../assets/sos.png";
 import Form from "react-bootstrap/Form";
-
 import dbFirebase from "./../../data/firebaseConfig";
 import { collection, doc, setDoc } from "firebase/firestore";
 
 //setNamen es la funcion (2do parametro) para cambiarle el valor al estado (name)
-const Registration = (props) => {
+const Registration = () => {
   const [name, setName] = useState("");
   const [rut, setRut] = useState("");
   const [db] = useState(dbFirebase);
   const handleSubmit = async (e) => {
     e.preventDefault(); //previene que se caiga la app
     if (name !== null && rut !== null) {
-      const loginRef = doc(collection(db, "login"));
-      await setDoc(loginRef, {
+      const loginRef = doc(collection(db,"login"))
+      await addDoc(collection(db, "login"), {
         name: name,
         rut: rut,
       });
-      props.history.push("/Harness");
     }
     console.log("onClick");
   };
   const onChangeName = (value) => {
-    const nameTextInput = value;
-    const nameTextFormatted = nameTextInput.replace(
-      /[^a-zA-ZáéíñóúüÁÉÍÑÓÚÜ´'\s]/g,
-      ""
-    );
-    setName(nameTextFormatted);
-
+    setName(value);
     console.log(name);
   };
 
   const onChangeRut = (value) => {
-    const rutTextInput = value;
-    const rutTextFormatted = rutTextInput.replace(/[^0-9-´'\s]/g, "");
-    setRut(rutTextFormatted);
-
+    setRut(value);
     console.log(rut);
   };
   return (
@@ -90,7 +78,8 @@ const Registration = (props) => {
           ></input>{" "}
           <a
             exact
-            href="https://www.bhp.com/terms-of-use"
+            href="https://www.bhp.com/terms-of-use
+"
             className={classes.AceptoTerminosyCondiciones}
           >
             Acepto términos y condiciones de uso
@@ -119,60 +108,4 @@ const Registration = (props) => {
   );
 };
 
-export default withRouter(Registration);
-
-=======
-
-const Registration = () => {
-    return (
-        <div>
-            <div>
-                <img className={classes.BHPlogo} src={BHPlogo} alt="imgLogo"></img>
-                <Link>
-                    <Button exact href="SOS" className={classes.SOS}>
-                        <img className={classes.SOSIcon} src={sos} alt="SOSicom"></img>
-                    </Button>
-                </Link>
-            </div>
-            <div className={classes.titleRegistration}>Datos mantenedor</div>
-            <div className={classes.lineRegistration}></div>
-
-            <Form>
-                <div class="form-group">
-                    <label for="formGroupExampleInput"></label>
-                    <input
-                        type="text"
-                        className={classes.formcontrol}
-                        id="formGroupExampleInput"
-                        placeholder="Nombre y Apellido"
-                    ></input>
-                </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput2"></label>
-                    <input
-                        type="text"
-                        className={classes.formcontrol}
-                        id="formGroupExampleInput2"
-                        placeholder="Rut"
-                    ></input>
-                </div>
-                <div>
-
-                    <input className={classes.Circle} type="radio" name="empleoactual" value="tiempocompleto"></input> <a exact href="https://www.bhp.com/terms-of-use" className={classes.AceptoTerminosyCondiciones}>Acepto términos y condiciones de uso</a>
-
-                </div>
-                <Link>
-                    <Button exact href="/Harness" className={classes.buttonRegistration}>
-                        Siguiente
-                    </Button>
-                    <Button exact href="/RecommendedWork" className={classes.buttonCalculation}>
-                        Calcular ELC
-                    </Button>
-                </Link>
-            </Form>
-        </div>
-    );
-};
-
 export default Registration;
-
