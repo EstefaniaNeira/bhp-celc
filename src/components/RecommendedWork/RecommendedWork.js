@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
-import classes from "./../RecommendedWork/RecommendedWork.module.css";
+import classes from "./RecommendedWork.module.css";
 import BHPlogo from "./../../assets/logoBHP.png";
 import sos from "./../../assets/sos.png";
 import Form from "react-bootstrap/Form";
@@ -22,7 +22,7 @@ const Campo = ({ label, setValor, fijos }) => {
   }
 
   return <div className='Campo'>
-    <div className='label'>{label}</div>
+    <div className={classes.label}>{label}</div>
     <input type='number' {...props}/>
   </div>
 }
@@ -36,7 +36,7 @@ const Formulario = ({ variables, resultado, fijos, exportarAPDF = false, calcula
 
   return <div>
      <Form className={classes.form}>
-    {variables.map((variable, ndx) => <Campo key={variable} fijos={fijos} setValor={(valor) => {
+    {variables.map((variable, ndx) => <Campo className={classes.campoSuma} key={variable} fijos={fijos} setValor={(valor) => {
       const guardado = [...valores]
       guardado[ndx] = valor
       console.log({ guardado, valor })
@@ -51,12 +51,16 @@ const Formulario = ({ variables, resultado, fijos, exportarAPDF = false, calcula
   </Form> 
 
     <div>
-    <p>El resultado final es :   {results}</p>
+    <p className={classes.pResults}> {results}</p>
     </div>
   </div>
 }
 
 const RecommendedWork = () => {
+  let valoresFijos = {}
+  valoresFijos["Elongación del amortiguador"] = 1.2
+  valoresFijos["Margen de Seguridad"] = 1
+  
   return (
     <div>
       <div>
@@ -70,21 +74,27 @@ const RecommendedWork = () => {
 
       <TituloLinea
         texto={"Cálculo Espacio libre de caída"} />
-
-      <Formulario
-        variables={['Longitud del estrobo', 'EA', 'Estatura del trabajador', 'MS', 'Espacio real del terreno']}
+     <div className={classes.lineRegistration}></div>
+     
+      <Formulario 
+        variables={['Longitud del estrobo', 'Elongación del amortiguador', 'Estatura del trabajador', 'Margen de Seguridad', 'Espacio real del terreno']}
         resultado={'ELC'}
-        fijos={{
-          EA: 1.2,
-          MS: 1
-        }}
+        fijos={valoresFijos}
+        
         calcular={(valores) => {
           let suma = 0
-          for (const valor of valores) {
-            console.log(valor)
+          const otros = [...valores]
+          const ert = otros.pop()
+          for (const valor of otros) {
             suma = valor + suma
           }
+          if (ert >= suma) {
+            alert('Puedes seguir realizando tu trabajo ')
+          } else {
+            alert('Existe riesgo de caída, contactate con el supervisor')
+          }
           return suma
+        
         }}
         exportarAPDF />
     </div>

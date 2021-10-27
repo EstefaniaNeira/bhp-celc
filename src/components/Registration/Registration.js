@@ -48,7 +48,7 @@ const Registration = () => {
 
 
         <Link>
-          <Button exact href="/" className={classes.buttonRegistration}>
+          <Button exact href="/Harness" className={classes.buttonRegistration}>
             Siguiente
           </Button>
           <Button exact href="/RecommendedWork" className={classes.buttonCalculation}>
